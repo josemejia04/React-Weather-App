@@ -1,10 +1,16 @@
 import React from "react";
 
-function Searchbar() {
+function Searchbar({ value, onChange, onSubmit }) {
   return (
     <div className="search-bar">
-      <form>
-        <input type="text" placeholder="Search..." />
+      <form onSubmit={onSubmit}>
+        <input
+          type="text"
+          placeholder="Enter city..."
+          value={value}
+          onChange={onChange}
+        />
+        <button type="submit">Search</button>
       </form>
     </div>
   );
