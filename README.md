@@ -6,4 +6,4 @@ Wehn you open the app, users are prompted to enter their desired location. The a
 
 Overall, the React weather app is a simple and user-friendly application that provides users with accurate and up-to-date weather information.
 
-view site on:https://reactweathernow.netlify.app/
+view site on: https://reactweathernow.netlify.app/
